@@ -85,4 +85,9 @@ main .sendmsg {
     width: 100%;
     height: 20%;
     background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+.sendmsg button {
+    width: 15%;
 }
