@@ -67,17 +67,19 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 30px;
 }
 
 main .entry {
     width: 100%;
     height: 20%;
     background-color: #F9FAF8;
+    font-size: 25px;
 }
 
 main form {
     width: 100%;
-    height: 40%;
+    height: 30%;
     background-color: #F9FAF8;
 }
 
@@ -87,7 +89,14 @@ main .sendmsg {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+    gap: 15px;
 }
 .sendmsg button {
     width: 15%;
+    font-size: 15px;
+    border-color: greenyellow;
+    background-color: #F9FAF8;
+    border-width: 5px;
+    border-radius: 15%;
 }

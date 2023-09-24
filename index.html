@@ -18,7 +18,24 @@
         </div>
         <main>
             <div class="entry">Bu tamamen hayali bir servistir! Buraya doldurduğunuz bilgilerin nereye gideceğini ben de bilmiyorum. Yine de bir iki şey yazabilirsiniz.</div>
-            <form action="127.0.0.1:5050/" class="signup" method="post"></form>
+            <form action="127.0.0.1:5050/" class="signup" method="post">
+                <fieldset>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name">
+                </fieldset>
+                <fieldset>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="text" id="phone_number">
+                </fieldset>
+                <fieldset>
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password">
+                </fieldset>
+            </form>
             <div class="sendmsg">
                 <a class="forgotpassword">
                     Şifrenizi mi unuttunuz?
