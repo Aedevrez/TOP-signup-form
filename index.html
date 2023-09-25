@@ -21,29 +21,32 @@
             <form action="127.0.0.1:5050/" class="signup" method="post">
                 <fieldset>
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name">
+                    <input type="text" id="first_name" required>
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name">
+                    <input type="text" id="last_name" required>
                 </fieldset>
                 <fieldset>
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" required>
                     <label for="phone_number">Phone Number</label>
-                    <input type="text" id="phone_number">
+                    <input type="text" id="phone_number" required>
                 </fieldset>
                 <fieldset>
                     <label for="user_password">Password:</label>
-                    <input type="password" id="user_password" name="password">
+                    <input type="password" id="user_password" name="password" required>
+                    <label for="repeat_password">Repeat Password:</label>
+                    <input type="password" id="repeat_password" name="repeat_password" required>
                 </fieldset>
+                <div class="sendmsg">
+                    <a class="forgotpassword">
+                        Şifrenizi mi unuttunuz?
+                    </a>
+                    <button>
+                        Gönder
+                    </button>
+                </div>
             </form>
-            <div class="sendmsg">
-                <a class="forgotpassword">
-                    Şifrenizi mi unuttunuz?
-                </a>
-                <button>
-                    Gönder
-                </button>
-            </div>
+            
         </main>
     </div>
 </body>
